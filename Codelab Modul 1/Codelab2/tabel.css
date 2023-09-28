@@ -1,0 +1,20 @@
+.gold-table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    width: 100%;
+    border: 1px solid gold; /* Border luar untuk tepian dengan latar gold */
+    background-color: gold; /* Latar belakang gold */
+    outline: 1px solid black; /* Border hitam di tepian luar */
+}
+
+.gold-table th, .gold-table td {
+    padding: 10px;
+    background-color: gold; /* Latar belakang gold */
+    color: black;
+    border: 1px solid black;
+}
+
+.gold-table th {
+    text-align: left;
+    border-bottom: 1px solid black; /* Border atas pada header */
+}
